@@ -1,0 +1,38 @@
+program teste1
+
+/* declaracao de vars */
+integer: a,b,c;
+real: d,e,f;
+integer :w,g,h;
+
+/* declaracao de procedures */
+procedure conta (a, g: real; d, c: integer)
+  real: w, i, j;
+  integer: l
+begin
+  h := 2.0;
+  a := g + 3.5 / h;
+  l := c - d * 2;
+  if (c+d)>=5 then
+    write(a)
+  else
+    write(l)
+  $
+end;
+
+
+procedure comp (j: integer; k: real; l: integer)
+  integer: cont,quant
+begin
+  read(quant);
+  while cont <> quant do
+     write(cont)
+  $;
+  l := l + j + cont;
+  write(k);
+  write(l)
+end
+
+begin
+  w := 2
+end.

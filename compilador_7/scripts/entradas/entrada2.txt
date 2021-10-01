@@ -1,0 +1,19 @@
+program teste2
+	real : a,b;
+	integer : c, a;
+begin 
+	read(a);
+	read(c);
+  b := a * a + a;
+  d := 2*c + c;
+  if a > b then
+  	write(a)
+  else
+  	write(b)
+  $;
+  if d < c then
+  	write(d)
+  else
+  	write(c)
+  $
+end.

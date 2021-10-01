@@ -1,0 +1,22 @@
+ program teste5
+  integer : n, k;
+  real: y1, y2, y3;
+
+begin
+
+  read (n);
+
+  y1 := 0;
+  y2 := 1;
+  k := 1;
+
+  while k <= n do
+    y3 := y1 + y2;
+    y1 := y2;
+    y2 := y3;
+    k := k + 1
+  $;
+  write(n);
+  write(y1)
+
+end.
